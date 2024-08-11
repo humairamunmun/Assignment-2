@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+/* shared styles */
+.common-white{
+    color: rgb(255, 255, 255);
+}
+.btn-nav{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px 15px;
+    border: none;
+}
+.btn-primary{
+    height: 50px;
+    width: 210px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: 0.01px solid white;
+    background-color: rgb(230, 83, 60);
+}
+.reddish{
+    color: rgb(230, 83, 60);
+}
+
+/* header styles */
+.header{
+    width: 1450px;
+    height: 720px;
+    background: linear-gradient(180deg, rgb(17,17,17), rgba(48,48,48, 1),rgba(41, 41, 41, 1),rgb(5,5,5) 100% );
+    padding-top: 60px;
+}
+nav{
+    width: 1060px;
+    height: 46px;
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0; */
+    /* margin: 0px auto; */
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    border: 0.001px solid rgba(245, 245, 245, 0.11);
+    border-radius: 45px;
+    height: 45px;
+    width: 440px;
+    padding: 1px;
+}
+nav li{
+    list-style: none;
+    /* margin-right: 40px; */
+    padding: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+nav h3{
+    width: 11%;
+    height: 100%;
+    border: 1px solid red;
+    font-weight: 800;
+    font-size: 35px;
+    font-style: italic;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 35px 0 170px;
+    padding-top: 55px;
+}
+.banner-content{
+    max-width: 580px;
+    margin: 60px;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.banner img{
+    margin: 0 auto;
+}
+.btn-download{
+    height: 50px;
+    width: 210px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: 0.01px solid white;
+    background-color: unset;
+    margin-left: 20px;
+}
+main{
+    width: 1450px;
+    background-color: black;
+}
+.changes{
+    width: 1050px;
+    /* height: 720px; */
+    padding: 80px 0;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+    background-color: black;
+}
+.changes h2,h6,p{
+    color: rgb(255, 255, 255);
+}
+.changes h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+.texting{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texting h2{
+    font-size: 45px;
+}
+
+.texting p{
+    font-size: smaller;
+    text-align: center;
+    opacity: 0.4;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-style{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 30px; */
+}
+.card-style img{
+    border-radius: 50%;
+}
+.card-style p{
+    font-size: 10px;
+    width: 80%;
+    text-align: center;
+}
+.run-extra{
+    width: 1050px;
+    height: 310px;
+    background-color: rgba(48,48,48, 1);
+    /* height: 720px; */
+    /* max-width: 580px; */
+    padding: 30px;
+    /* margin-top: 80px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    display: flex;
+    gap: 30%;
+}
+.run-extra img{
+    border-radius: 20px;
+    width: 35%;
+    height: 100%;
+}
+.text-cont{
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    width: 35%;
+}
+.text-cont>h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.text-cont>p{
+    opacity: 0.4;
+    letter-spacing: 0.4px;
+    margin-bottom: 30px;
+}
+.meet-team{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+.meet-text{
+    display: flex;
+    flex-direction: column;
+}
+.meet-img{
+    border-radius: 15px;
+    display: grid;
+}
